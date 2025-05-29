@@ -1,0 +1,260 @@
+﻿  Compare.cpp
+  HashInventory.cpp
+  Inventory.cpp
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.cpp(5,50): error C2995: 'Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::Inventory(void)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.hpp(27,5):
+      see declaration of 'Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::Inventory'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.cpp(12,56): error C2995: 'Item *Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::getEquipped(void) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.hpp(33,11):
+      see declaration of 'Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::getEquipped'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.cpp(18,55): error C2995: 'void Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::equip(Item *)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.hpp(41,10):
+      see declaration of 'Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::equip'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.cpp(24,55): error C2995: 'void Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::discardEquipped(void)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.hpp(48,10):
+      see declaration of 'Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::discardEquipped'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.cpp(34,56): error C2995: 'float Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::getWeight(void) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.hpp(54,11):
+      see declaration of 'Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::getWeight'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.cpp(40,57): error C2995: 'size_t Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::size(void) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.hpp(60,12):
+      see declaration of 'Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::size'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.cpp(46,75): error C2995: 'std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>> Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::getItems(void) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.hpp(67,30):
+      see declaration of 'Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::getItems'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.cpp(52,55): error C2995: 'bool Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::pickup(const Item &)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.hpp(77,10):
+      see declaration of 'Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::pickup'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.cpp(64,55): error C2995: 'bool Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::discard(const std::string &)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.hpp(87,10):
+      see declaration of 'Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::discard'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.cpp(79,55): error C2995: 'bool Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::contains(const std::string &) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.hpp(95,10):
+      see declaration of 'Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::contains'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.cpp(85,75): error C2995: 'std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>> Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::query(const Item &,const Item &) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.hpp(114,30):
+      see declaration of 'Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::query'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.cpp(103,51): error C2995: 'Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::~Inventory(void)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\HashInventory.hpp(120,6):
+      see declaration of 'Inventory<Comparator,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>>>::~Inventory'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.cpp(13,35): error C2995: 'Inventory<Comparator,Container>::Inventory(void)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.hpp(32,5):
+      see declaration of 'Inventory<Comparator,Container>::Inventory'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.cpp(25,41): error C2995: 'Item *Inventory<Comparator,Container>::getEquipped(void) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.hpp(38,11):
+      see declaration of 'Inventory<Comparator,Container>::getEquipped'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.cpp(37,40): error C2995: 'void Inventory<Comparator,Container>::equip(Item *)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.hpp(46,10):
+      see declaration of 'Inventory<Comparator,Container>::equip'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.cpp(48,40): error C2995: 'void Inventory<Comparator,Container>::discardEquipped(void)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.hpp(53,10):
+      see declaration of 'Inventory<Comparator,Container>::discardEquipped'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.cpp(62,41): error C2995: 'float Inventory<Comparator,Container>::getWeight(void) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.hpp(59,11):
+      see declaration of 'Inventory<Comparator,Container>::getWeight'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.cpp(73,35): error C2995: 'size_t Inventory<Comparator,Container>::size(void) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.hpp(65,12):
+      see declaration of 'Inventory<Comparator,Container>::size'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.cpp(85,35): error C2995: 'Container Inventory<Comparator,Container>::getItems(void) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.hpp(72,15):
+      see declaration of 'Inventory<Comparator,Container>::getItems'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.cpp(98,40): error C2995: 'bool Inventory<Comparator,Container>::pickup(const Item &)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.hpp(81,10):
+      see declaration of 'Inventory<Comparator,Container>::pickup'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.cpp(115,40): error C2995: 'bool Inventory<Comparator,Container>::contains(const std::string &) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.hpp(98,10):
+      see declaration of 'Inventory<Comparator,Container>::contains'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.cpp(135,40): error C2995: 'bool Inventory<Comparator,Container>::discard(const std::string &)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.hpp(90,10):
+      see declaration of 'Inventory<Comparator,Container>::discard'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.cpp(168,35): error C2995: 'std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>> Inventory<Comparator,Container>::query(const Item &,const Item &) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.hpp(117,30):
+      see declaration of 'Inventory<Comparator,Container>::query'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.cpp(193,36): error C2995: 'Inventory<Comparator,Container>::~Inventory(void)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\Inventory.hpp(123,6):
+      see declaration of 'Inventory<Comparator,Container>::~Inventory'
+  
+  Item.cpp
+  ItemAVL.cpp
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(4,34): error C2995: 'const Node *ItemAVL<Comparator>::root(void) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(52,17):
+      see declaration of 'ItemAVL<Comparator>::root'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(16,26): error C2995: 'int ItemAVL<Comparator>::height(Node *) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(84,9):
+      see declaration of 'ItemAVL<Comparator>::height'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(28,26): error C2995: 'int ItemAVL<Comparator>::size(void) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(99,9):
+      see declaration of 'ItemAVL<Comparator>::size'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(37,27): error C2995: 'void ItemAVL<Comparator>::displayLevelOrder(Node *) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(144,10):
+      see declaration of 'ItemAVL<Comparator>::displayLevelOrder'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(67,27): error C2995: 'void ItemAVL<Comparator>::displayLevelOrder(void) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(89,10):
+      see declaration of 'ItemAVL<Comparator>::displayLevelOrder'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(76,27): error C2995: 'void ItemAVL<Comparator>::displayInOrder(void) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(94,10):
+      see declaration of 'ItemAVL<Comparator>::displayInOrder'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(90,27): error C2995: 'void ItemAVL<Comparator>::displayInOrder(Node *) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(150,10):
+      see declaration of 'ItemAVL<Comparator>::displayInOrder'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(105,22): error C2995: 'ItemAVL<Comparator>::ItemAVL(void)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(39,5):
+      see declaration of 'ItemAVL<Comparator>::ItemAVL'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(117,27): error C2995: 'void ItemAVL<Comparator>::deleteTree(Node *&)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(191,10):
+      see declaration of 'ItemAVL<Comparator>::deleteTree'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(132,23): error C2995: 'ItemAVL<Comparator>::~ItemAVL(void)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(44,6):
+      see declaration of 'ItemAVL<Comparator>::~ItemAVL'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(143,27): error C2995: 'bool ItemAVL<Comparator>::contains(const std::string &) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(76,10):
+      see declaration of 'ItemAVL<Comparator>::contains'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(156,27): error C2995: 'bool ItemAVL<Comparator>::contains(const std::string &,const Node *) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(113,10):
+      see declaration of 'ItemAVL<Comparator>::contains'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(171,27): error C2995: 'bool ItemAVL<Comparator>::insert(const Item &)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(61,10):
+      see declaration of 'ItemAVL<Comparator>::insert'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(189,27): error C2995: 'void ItemAVL<Comparator>::insert(const Item &,Node *&)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(122,10):
+      see declaration of 'ItemAVL<Comparator>::insert'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(212,28): error C2995: 'float ItemAVL<Comparator>::erase(const std::string &)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(69,11):
+      see declaration of 'ItemAVL<Comparator>::erase'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(231,28): error C2995: 'float ItemAVL<Comparator>::erase(const std::string &,Node *&)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(132,11):
+      see declaration of 'ItemAVL<Comparator>::erase'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(267,27): error C2995: 'void ItemAVL<Comparator>::balance(Node *&)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(139,10):
+      see declaration of 'ItemAVL<Comparator>::balance'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(300,27): error C2995: 'void ItemAVL<Comparator>::rotateWithLeftChild(Node *&)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(160,10):
+      see declaration of 'ItemAVL<Comparator>::rotateWithLeftChild'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(319,27): error C2995: 'void ItemAVL<Comparator>::rotateWithRightChild(Node *&)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(168,10):
+      see declaration of 'ItemAVL<Comparator>::rotateWithRightChild'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(336,27): error C2995: 'void ItemAVL<Comparator>::doubleWithLeftChlid(Node *&)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(176,10):
+      see declaration of 'ItemAVL<Comparator>::doubleWithLeftChlid'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.cpp(349,27): error C2995: 'void ItemAVL<Comparator>::doubleWithRightChild(Node *&)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemAVL.hpp(184,10):
+      see declaration of 'ItemAVL<Comparator>::doubleWithRightChild'
+  
+  ItemGenerator.cpp
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemGenerator.hpp(54,41): warning C4305: 'initializing': truncation from 'double' to 'const float'
+  (compiling source file 'ItemGenerator.cpp')
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemGenerator.cpp(17,41): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemGenerator.cpp(25,63): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemGenerator.cpp(25,63): warning C4267:         with
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemGenerator.cpp(25,63): warning C4267:         [
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemGenerator.cpp(25,63): warning C4267:             _Ty=int
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemGenerator.cpp(25,63): warning C4267:         ]
+  main.cpp
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\ItemGenerator.hpp(54,41): warning C4305: 'initializing': truncation from 'double' to 'const float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\main.cpp(65,93): warning C4305: 'argument': truncation from 'double' to 'const float'
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\main.cpp(65,93):
+      the template instantiation context (the oldest one first) is
+          C:\Users\rusha\source\repos\CS335Project2\CS335Project2\main.cpp(98,9):
+          see reference to function template instantiation 'float benchmarkQuery<CompareItemName,std::vector<Item,std::allocator<Item>>>(size_t,const std::string &,bool)' being compiled
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\main.cpp(67,34): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+  TreeInventory.cpp
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.cpp(12,30): error C2995: 'Inventory<Comparator,Tree>::Inventory(void)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.hpp(33,5):
+      see declaration of 'Inventory<Comparator,Tree>::Inventory'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.cpp(24,36): error C2995: 'Item *Inventory<Comparator,Tree>::getEquipped(void) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.hpp(39,11):
+      see declaration of 'Inventory<Comparator,Tree>::getEquipped'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.cpp(36,35): error C2995: 'void Inventory<Comparator,Tree>::equip(Item *)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.hpp(47,10):
+      see declaration of 'Inventory<Comparator,Tree>::equip'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.cpp(47,35): error C2995: 'void Inventory<Comparator,Tree>::discardEquipped(void)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.hpp(54,10):
+      see declaration of 'Inventory<Comparator,Tree>::discardEquipped'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.cpp(61,36): error C2995: 'float Inventory<Comparator,Tree>::getWeight(void) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.hpp(60,11):
+      see declaration of 'Inventory<Comparator,Tree>::getWeight'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.cpp(70,37): error C2995: 'size_t Inventory<Comparator,Tree>::size(void) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.hpp(65,12):
+      see declaration of 'Inventory<Comparator,Tree>::size'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.cpp(80,50): error C2995: 'ItemAVL<Comparator> Inventory<Comparator,Tree>::getItems(void) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.hpp(71,25):
+      see declaration of 'Inventory<Comparator,Tree>::getItems'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.cpp(93,35): error C2995: 'bool Inventory<Comparator,Tree>::pickup(const Item &)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.hpp(81,10):
+      see declaration of 'Inventory<Comparator,Tree>::pickup'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.cpp(110,35): error C2995: 'bool Inventory<Comparator,Tree>::discard(const std::string &)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.hpp(91,10):
+      see declaration of 'Inventory<Comparator,Tree>::discard'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.cpp(127,35): error C2995: 'bool Inventory<Comparator,Tree>::contains(const std::string &) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.hpp(99,10):
+      see declaration of 'Inventory<Comparator,Tree>::contains'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.cpp(150,55): error C2995: 'std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>> Inventory<Comparator,Tree>::query(const Item &,const Item &) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.hpp(118,30):
+      see declaration of 'Inventory<Comparator,Tree>::query'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.cpp(163,35): error C2995: 'void Inventory<Comparator,Tree>::queryHelper(const Item &,const Item &,const Node *,std::unordered_set<Item,std::hash<Item>,std::equal_to<Item>,std::allocator<Item>> &) const': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.hpp(15,10):
+      see declaration of 'Inventory<Comparator,Tree>::queryHelper'
+  
+C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.cpp(191,31): error C2995: 'Inventory<Comparator,Tree>::~Inventory(void)': function template has already been defined
+      C:\Users\rusha\source\repos\CS335Project2\CS335Project2\TreeInventory.hpp(124,6):
+      see declaration of 'Inventory<Comparator,Tree>::~Inventory'
+  
+  Generating Code...
